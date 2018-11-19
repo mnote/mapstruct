@@ -28,3 +28,11 @@ public interface CarMapper {
     CarMapper INSTANCE = Mappers.getMapper( CarMapper.class );
 }
 ```
+
+### Idea Setup
+
+![AspectJ Support Plugin](./docs/image/AspectJ_Support_Plugin.png)
+
+![AspectJ Ajc Delegate](./docs/image/AspectJ_Ajc_Delegate.png)
+
+![AspectJ Post Compile](./docs/image/AspectJ_Post_Compile.png)
