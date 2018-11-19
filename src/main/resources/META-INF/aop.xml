@@ -1,0 +1,18 @@
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+
+    <!-- -verbose -debug -Xset:weaveJavaxPackages=true -->
+    <weaver options="-showWeaveInfo -verbose">
+
+        <!-- only weave classes in application-specific packages -->
+        <include within="io.github.mnote..*"/>
+
+        <!-- the weaving need to be enabled also for aspect classes -->
+
+    </weaver>
+
+    <aspects>
+
+    </aspects>
+
+</aspectj>
